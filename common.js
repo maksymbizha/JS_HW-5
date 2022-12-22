@@ -3,10 +3,9 @@ let mathematicalOperation;
 
 if(!isNaN(hour)){
     mathematicalOperation = hour * 3600;
-    alert(mathematicalOperation);
-    console.log(mathematicalOperation)
+    alert(`${hour} hour * 3600 = ${mathematicalOperation} second`);
 } else {
-    alert('You entered incorrect data.')
+    alert('Not a valid operation.')
 }
 
 
